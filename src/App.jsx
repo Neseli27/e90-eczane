@@ -2,7 +2,7 @@ import React, { useState, useEffect, useMemo } from 'react';
 import { initializeApp } from 'firebase/app';
 import { getFirestore, collection, addDoc, onSnapshot, query, updateDoc, doc, deleteDoc, serverTimestamp } from 'firebase/firestore';
 import { getAuth, signInAnonymously, onAuthStateChanged } from 'firebase/auth';
-import { MapPin, Phone, Navigation, Plus, Activity, Clock, Trash2, Edit2, Search, Filter, Pill, CalendarClock, AlertTriangle, CloudCheck, X, ShieldCheck } from 'lucide-react'; from 'lucide-react';
+import { MapPin, Phone, Navigation, Plus, Activity, Clock, Trash2, Edit2, Search, Filter, Pill, CalendarClock, AlertTriangle, CloudCheck, X, ShieldCheck } from 'lucide-react';
 
 // 1. SENİN FİREBASE YAPILANDIRMAN (Stabil ve Canlı)
 const firebaseConfig = {
